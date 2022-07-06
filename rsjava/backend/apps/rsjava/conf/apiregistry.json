@@ -1,0 +1,8 @@
+{
+    "/apps/java/getUserProfile": "/apis/getProfile.js?userprofile=default",
+    "/apps/java/configureProfile": "/apis/lib/userProfile/configureUserProfile.js",
+    "/apps/java/ce51001": "/apis/seminar-ir/ce51001/wrapper.js?userprofile=default",
+    "/apps/java/ce51002": "/apis/seminar-ir/ce51002/wrapper.js",
+    "/apps/java/bookmark": "/apis/seminar-ir/bookmark/wrapper.js?userprofile=default",
+    "/apps/java/ce51000": "/apis/seminar-ir/ce51000/wrapper.js?userprofile=default"
+}

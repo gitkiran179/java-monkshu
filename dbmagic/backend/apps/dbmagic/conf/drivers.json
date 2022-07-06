@@ -1,0 +1,9 @@
+{	
+	"drivers": {
+		"oracledb":"(async function(){const oracledb = require('oracledb'); if (!this.__oracdle_db_init) {this.__oracdle_db_init = true; oracledb.initOracleClient({libDir: `${__dirname}/../../3p/${process.platform}/oracle_instantclient`});} return oracledb.createPool(config);})()",
+		"memsql":"require('mariadb').createPool(config)",
+		"mariadb":"require('mariadb').createPool(config)",
+		"mysql":"require('mysql').createPool(config)",
+		"postgresql":"(new (require('pg').Pool)(config))"
+	}
+}

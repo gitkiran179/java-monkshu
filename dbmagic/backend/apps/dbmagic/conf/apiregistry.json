@@ -1,0 +1,10 @@
+{
+    "/apps/dbmagic/crud" : "/apis/crud.js?needsToken=false",
+    "/apps/dbmagic/query" : "/apis/query.js?needsToken=false",
+    "/apps/dbmagic/securequery" : "/apis/query.js?needsToken=false&keys=fjkw79842ufn4289udej2348",
+    "/apps/dbmagic/jwtquery" : "/apis/query.js?needsToken=true&keys=fjkw79842ufn4289udej2348",
+    "/apps/dbmagic/authorize" : "/apis/authorize.js?needsToken=false&keys=fjkw79842ufn4289udej2348&addsToken=sub:access",
+    "/apps/dbmagic/admin/configuredb" : "/apis/configuredb.js?needsToken=false",
+    "/apps/dbmagic/admin/configurequery" : "/apis/configurequery.js?needsToken=false",
+    "/apps/dbmagic/admin/configureuser" : "/apis/configureuser.js?needsToken=true&keys=fjkw79842ufn4289udej2348"
+}

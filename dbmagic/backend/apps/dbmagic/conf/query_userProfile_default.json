@@ -1,0 +1,11 @@
+{
+    "name": "userProfile_default",
+    "description": "Resolve loginID to dbID",
+    "query": "SELECT * FROM CLNT_DB_CONTRL CT WHERE CT.LOGIN_ID = :LOGIN_ID",
+    "parameter_map": {
+        "0": "LOGIN_ID"
+    },
+    "type": "query",
+    "cache_id": "{{dbID}}userProfile_default{{LOGIN_ID}}",
+    "invalidate_cache_ids": []
+}
