@@ -1,0 +1,7 @@
+dbmagic/backend/apps/dbmagic/3p/*
+monkshu/backend/server/logs/*
+monkshu/backend/apps/*
+node_modules
+package.json
+package-lock.json
+

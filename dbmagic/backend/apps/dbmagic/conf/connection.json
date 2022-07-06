@@ -1,0 +1,59 @@
+{
+    "dsdb": {
+        "driver": "oracledb",
+        "user": "distribute",
+        "encrypted_password": "52cdc2152ae950a5f924ccdd6435ab",
+        "connectString": "localhost:1521/p2_dsdb_cust_1",
+        "poolAlias": "dsdb"
+    },
+    "1": {
+        "driver": "oracledb",
+        "user": "account",
+        "encrypted_password": "28e3a5b050153e44e3d89dd519d1",
+        "connectString": "localhost:1521/p2_rsdb01_cust_1",
+        "poolAlias": "rsdb1"
+
+    },
+    "2": {
+        "driver": "oracledb",
+        "user": "account",
+        "encrypted_password": "28e3a5b050153e44e3d89dd519d1",
+        "connectString": "localhost:1521/p2_rsdb02_cust_1",
+        "poolAlias": "rsdb2"
+    },
+    "3": {
+        "driver": "oracledb",
+        "user": "account",
+        "encrypted_password": "28e3a5b050153e44e3d89dd519d1",
+        "connectString": "localhost:1521/p2_rsdb03_cust_1",
+        "poolAlias": "rsdb3"
+    },
+    "4": {
+        "driver": "oracledb",
+        "user": "account",
+        "encrypted_password": "28e3a5b050153e44e3d89dd519d1",
+        "connectString": "localhost:1521/p2_rsdb04_cust_1",
+        "poolAlias": "rsdb4"
+    },
+    "5": {
+        "driver": "oracledb",
+        "user": "account",
+        "encrypted_password": "28e3a5b050153e44e3d89dd519d1",
+        "connectString": "localhost:1521/p2_rsdb05_cust_1",
+        "poolAlias": "rsdb5"
+    },
+    "6": {
+        "driver": "oracledb",
+        "user": "account",
+        "encrypted_password": "28e3a5b050153e44e3d89dd519d1",
+        "connectString": "localhost:1521/p2_rsdb06_cust_1",
+        "poolAlias": "rsdb6"
+    },
+    "7": {
+        "driver": "oracledb",
+        "user": "account",
+        "encrypted_password": "28e3a5b050153e44e3d89dd519d1",
+        "connectString": "localhost:1521/p2_rsdb07_cust_1",
+        "poolAlias": "rsdb7"
+    }
+}

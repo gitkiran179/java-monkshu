@@ -1,0 +1,4 @@
+{
+    "replicas": ["{{{hostname}}}:9090"],
+    "secure": false
+}
